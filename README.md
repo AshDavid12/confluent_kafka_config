@@ -42,4 +42,4 @@ This project demonstrates a Kafka consumer application using `aiokafka` for asyn
 
 Start the Kafka consumer by running the following command:
 ```sh
-python main.py
+poetry run python main.py
