@@ -10,11 +10,11 @@ import py_avro_schema
 from enum import Enum
 from datetime import datetime
 
-SASL_USERNAME = "Q4HSJFFDZP6LFWT5"
-SASL_PASSWORD = "4aURrXyhUD+sWCLVhJbzIvNiNyNxAiEGflCrOMtFMCShyotIDKKFkIuAlM/BxAOh"
-KAFKA_BROKER_2 = "pkc-p11xm.us-east-1.aws.confluent.cloud:9092"
-SCHEMA_REGISTRY = "https://psrc-w7xg35.us-east-1.aws.confluent.cloud"
-SCHEMA_REGISTRY_USER_INFO = "WJAHQARJOUQDB7ST:1Cmw2Yh1mxX2mPzxEl2EQad2xZzZfBdk8VptG+w14HkHfcP7NXd2ihc8XZdh/Smo"
+SASL_USERNAME = ""
+SASL_PASSWORD = ""
+KAFKA_BROKER_2 = ""
+SCHEMA_REGISTRY = ""
+SCHEMA_REGISTRY_USER_INFO = ""
 
 
 class FactCheckEventStatus(str, Enum):
