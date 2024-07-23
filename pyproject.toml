@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "myi"
+version = "0.1.0"
+description = ""
+authors = ["AshDavid12 <gaashdavid@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.36.0"
+aiokafka = "^0.11.0"
+asyncio = "^3.4.3"
+pydantic = "^2.8.2"
+confluent-kafka = "^2.5.0"
+fastavro = "^1.9.5"
+pydantic-avro = "^0.7.1"
+dataclasses-avroschema = "^0.62.1"
+py-avro-schema = "^3.7.1"
+python-dotenv = "^1.0.1"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
